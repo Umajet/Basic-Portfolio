@@ -1,1 +1,44 @@
+body {
+    background-color: cadetblue;
+}
+.h1
+ {
+
+   width: 50%;
+    font-size: 80px
+
+}
+.navBarWrapper {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .bar {
+    height: 8.02%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bar li {
+    display: inline-block;
+  }
+nav {
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }   
+    
+      
+      a {
+        background-color: #dddddd;
+      }
 
