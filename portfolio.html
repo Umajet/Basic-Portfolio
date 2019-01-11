@@ -1,28 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="Assets/css/reset.css">
-    <link rel="stylesheet" href="Assets/css/style.css">
-    
-    
-</head>
-<body>
-        <div class="navBarWrapper">
-                <div class="top bar">
-                  <ul class="left">
-                    <li class="title">Tim Smith</li>
-                  </ul>
-                  <ul class="right">
-                        <li class="buttons"> <a href="login.html" class="otherPages">About</a></li>
-                        <li class="buttons"> <a href="login.html" class="otherPages">Portfolio</a></li>
-                        <li class="buttons"> <a href="login.html" class="otherPages">Contact</a></li>
-            
-                  </ul>
-                </div>
-              </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Assets/css/reset.css" />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+  </head>
+  <body>
+    <div class="navBarWrapper">
+      <div class="bar">
+        <a class="title" href="#">Tim Smith</a>
+        <ul class="right">
+          <a class="btn about" href="index.html">About</a>
+          <a class="btn portfolio" href="portfolio.html">Portfolio</a>
+          <a class="btn contact" href="contact.html">Contact</a>
+        </ul>
+      </div>
+    </div>
+    <div class="contentWrapper">
+      <div class="section" id="gallery">
+        <header class="h1">Portfolio</header>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <img
+                class="image"
+                src="/Assets/Images/11Tree Lighting.jpg"
+                alt="OBAMA"
+                
+              />
+              <a class="timPersonal">With Obama</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img
+                class="image"
+                src="/Assets/Images/51LLlvrk-vL._SS400_.jpg"
+                alt="myWork"
+                
+              />
+              <a class="timPersonal">Umajets</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img
+                class="image"
+                src="/Assets/Images/IMG_1277.jpg"
+                alt="myWork"
+                
+              />
+              <a class="timPersonal">WithPuddles</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img
+                class="image"
+                src="/Assets/Images/IMG_7811.jpeg"
+                alt="myWork"
+                
+              />
+              <a class="timPersonal">Say What?</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img
+                class="image"
+                src="/Assets/Images/IMG_2199.jpg"
+                alt="myWork"
+                
+              />
+              <a class="timPersonal">MarzipanTim</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END GRID -->
+    </div>
+    <div class="footer"><p>Copyright 2019©</p></div>
+  </body>
 </html>

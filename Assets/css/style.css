@@ -1,44 +1,151 @@
-body {
-    background-color: cadetblue;
+.contentWrapper {
+  width: 75%;
+  border: 1px solid black;
+  background: white;
+  padding: 25px;
+  margin: 30px auto;
 }
-.h1
- {
-
-   width: 50%;
-    font-size: 80px
-
+.titlePic {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+form {
+  border-top: #666666 solid 2px;
+  padding-top: 20px;
+}
+.input {
+  width: 85%;
+}
+#message {
+  height: 100px;
+}
+body {
+  background-image: url(../Images/ep_naturalwhite.png);
+  color: #777777;
+}
+.h1 {
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+  color: #4aaaa5;
+  width: 50%;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+p {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  color: #777777;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  cursor: pointer;
+  display: inline-block;
 }
 .navBarWrapper {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-  }
-  
-  .bar {
-    height: 8.02%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .bar li {
-    display: inline-block;
-  }
-nav {
-    background-color: #ffffff;
+  width: 100%;
 }
-ul {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    display: inline;
-  }   
-    
-      
-      a {
-        background-color: #dddddd;
-      }
+
+.bar {
+  height: 8.02%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.bar li {
+  display: inline-block;
+}
+
+.right {
+  list-style-type: none;
+  float: right;
+  margin: 0 12% 0 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  background-color: #dddddd;
+}
+
+.footer {
+  position: sticky;
+  height: 10px;
+  width: 100%;
+  border-top: 10px solid cadetblue;
+  background-color: #666666;
+  color: white;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 60px;
+  margin-left: 12%;
+  color: white;
+  background: cadetblue;
+  padding: 10px;
+}
+ 
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 225px;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.image {
+  width: 225px;
+  height: 255px;
+}
+#gallery {
+  width: 700px;
+}
+.timPersonal {
+  position: relative;
+    bottom: 50px;
+    padding: 20px 120px 20px 0px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-align: center;
+}
 
